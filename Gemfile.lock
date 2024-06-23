@@ -306,6 +306,7 @@ GEM
       concurrent-ruby (~> 1.0)
     unicode-display_width (1.8.0)
     uri (0.13.0)
+    webrick (1.8.1)
     yell (2.2.2)
     zeitwerk (2.6.16)
 
@@ -319,6 +320,7 @@ DEPENDENCIES
   html-proofer (~> 5.0)
   jekyll-include-cache
   just-the-docs!
+  webrick
 
 BUNDLED WITH
    2.5.14
