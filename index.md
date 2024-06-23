@@ -14,7 +14,7 @@ Deze website dient als naslagwerk voor de datasets die beschikbaar zijn binnen h
 gebruikt worden, de modaliteiten en afhankelijkheden binnen mobiliteitsonderzoek
 {: .fs-6 .fw-300 }
 
-[Instructies](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Instructies](#Instructies){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [View it on GitHub][Just the Docs repo]{: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
@@ -28,7 +28,7 @@ Jekyll builds this Just the Docs theme docs website using the theme itself. Thes
 
 Browse the docs to learn more about how to use this theme.
 
-## Getting started
+## Instructies
 
 The [Just the Docs Template] provides the simplest, quickest, and easiest way to create a new website that uses the Just the Docs theme. To get started with creating a site, just click "[use the template]"!
 
