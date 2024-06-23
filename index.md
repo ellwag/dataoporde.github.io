@@ -14,30 +14,42 @@ Deze website dient als naslagwerk voor de datasets die beschikbaar zijn binnen h
 gebruikt worden, de modaliteiten en afhankelijkheden binnen mobiliteitsonderzoek
 {: .fs-6 .fw-300 }
 
-[Instructies](#Instructies){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Instructies en Toelichting](#instructies-en-toelichting){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [View it on GitHub][Just the Docs repo]{: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
-{: .warning }
-> This website documents the features of the current `main` branch of the Just the Docs theme. See [the CHANGELOG]({% link CHANGELOG.md %}) for a list of releases, new features, and bug fixes.
+Elke sectie van dit document biedt informatie over de herkomst, het gebruik, de opslag en de transformaties van de data. Tevens worden de datakwaliteit, potentiële verrijkingsmogelijkheden en de relaties tussen verschillende datasets besproken. Om het daadwerkelijke gebruik van de datasets te begrijpen kan je via de handleiding secties onder de dieper in het gebruik van de datasets duiken.
 
-Just the Docs is a theme for generating static websites with [Jekyll]. You can write source files for your web pages using [Markdown], the [Liquid] templating language, and HTML.[^1] Jekyll builds your site by converting all files that have [front matter] to HTML. Your [Jekyll configuration] file determines which theme to use, and sets general parameters for your site, such as the URL of its home page.
+Het doel van deze documentatie is om een volledig beeld te geven van de datasets en hun kenmerken. Om dieper in te gaan op het praktische gebruik van de datasets, bieden de handleiding-secties gedetailleerde instructies. Deze secties zijn ontworpen om gebruikers  (waar mogelijk) te begeleiden bij het werken met de data, van basis query's tot analyses. Ze bevatten praktische voorbeelden, tips voor analyses en richtlijnen voor het optimaal benutten van de beschikbare gegevens.
 
-Jekyll builds this Just the Docs theme docs website using the theme itself. These web pages show how your web pages will look *by default* when you use this theme. But you can easily *[customize]* the theme to make them look completely different!
 
-Browse the docs to learn more about how to use this theme.
 
-## Instructies
+## Instructies en Toelichting
 
-The [Just the Docs Template] provides the simplest, quickest, and easiest way to create a new website that uses the Just the Docs theme. To get started with creating a site, just click "[use the template]"!
+Voor iedere dataset komen de volgende onderwerpen aanbod:
+
+1. **Herkomst van de data**: In deze sectie wordt de oorsprong van de datasets belicht. Er wordt ingegaan op de bronnen waaruit de gegevens zijn verzameld, of het nu gaat om interne systemen, externe leveranciers, of publieke databronnen. Ook wordt er aandacht besteed aan de frequentie waarmee de data wordt bijgewerkt en de betrouwbaarheid van de bronnen.
+2. **Gebruik van de data**: Hier wordt uitgelegd hoe de datasets in de praktijk worden toegepast. Er worden voorbeelden gegeven van specifieke use cases, analyses en rapporten waarvoor de data wordt ingezet. Daarnaast worden de belangrijkste stakeholders en eindgebruikers van de data geïdentificeerd.
+3. **Opslag van de data**: Deze sectie beschrijft de technische aspecten van dataopslag. Er wordt ingegaan op de gebruikte databases of datawarehouses, de formaten waarin de data wordt opgeslagen, en de beveiligingsmaatregelen die zijn getroffen om de integriteit en vertrouwelijkheid van de gegevens te waarborgen.
+4. **Transformaties van de data**: Hier worden de verschillende bewerkingen en transformaties beschreven die de ruwe data ondergaat voordat deze wordt gebruikt. Dit kan variëren van eenvoudige opschoningsprocessen tot complexe calculaties. Er wordt ook aandacht besteed aan de tools en technieken die hiervoor worden ingezet.
+5. **Datakwaliteit**: In deze sectie worden de maatregelen en processen besproken die zorgen voor de kwaliteit van de data. Er wordt ingegaan op aspecten zoals accuraatheid, volledigheid, consistentie en tijdigheid van de gegevens. Ook worden eventuele bekende kwaliteitsproblemen en de aanpak daarvan besproken.
+6. **Potentiële verrijkingsmogelijkheden**: Hier worden mogelijkheden verkend om de waarde van de datasets te vergroten. Bijvoorbeeld door het combineren van andere interne of externe databronnen.
+7. **Relaties tussen verschillende datasets**: Deze sectie belicht de onderlinge verbanden en afhankelijkheden tussen de verschillende datasets. Er wordt uitgelegd hoe de datasets met elkaar samenhangen en hoe ze gezamenlijk kunnen worden gebruikt om een nog betere analyses te kunnen uitvoeren.
 
 {: .note }
-To use the theme, you do ***not*** need to clone or fork the [Just the Docs repo]! You should do that only if you intend to browse the theme docs locally, contribute to the development of the theme, or develop a new theme based on Just the Docs.
+
+Dit document is continu in ontwikkeling. De inhoud wordt regelmatig bijgewerkt om de meest recente informatie over datasets weer te geven. Als u merkt dat bepaalde secties verouderd zijn, informatie mist, of als u suggesties heeft voor verbeteringen, neem dan contact op met:<br> Elliot Wagner, E-mail: [elliot.wagner@utrecht.nl](mailto:elliot.wagner@utrecht.nl). Aarzel niet om vragen, opmerkingen of voorstellen voor aanvullingen door te geven. 
+
+
 
 You can easily set the site created by the template to be published on [GitHub Pages] – the [template README] file explains how to do that, along with other details.
 
 If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^2] And you will be able to deploy your local build to a different platform than GitHub Pages.
+
+{: .warning }
+
+> This website documents the features of the current `main` branch of the Just the Docs theme. See [the CHANGELOG]({% link CHANGELOG.md %}) for a list of releases, new features, and bug fixes.
 
 More specifically, the created site:
 

@@ -11,7 +11,7 @@
 
 <div class="side-bar">
   <div class="site-header" role="banner">
-    <a href="{{ '/' | relative_url }}" class="site-title lh-tight">{% include title.html %}</a>
+    <a href="{{ '/' | relative_url }}" class="site-title lh-tight">{% include title.html %}📚</a>
     <button id="menu-button" class="site-button btn-reset" aria-label="Toggle menu" aria-pressed="false">
       <svg viewBox="0 0 24 24" class="icon" aria-hidden="true"><use xlink:href="#svg-menu"></use></svg>
     </button>
@@ -26,7 +26,8 @@
     {{ nav_footer_custom }}
   {% else %}
     <footer class="site-footer">
-      This site uses <a href="https://github.com/just-the-docs/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+      <div style="background-image: url('https://huisstijl.utrecht.nl/fileadmin/uploads/documenten/zz-huisstijl/logo/logo-gemeente-utrecht-nederlands-groot-1200.png'); background-size: cover; background-position: center; width: 120px; height: 60px;">
+      </div>
     </footer>
   {% endif %}
 </div>
