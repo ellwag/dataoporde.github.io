@@ -361,4 +361,4 @@ The Table of Contents can be made collapsible using the `<details>` and `<summar
 </details>
 ```
 
-The result is shown at [the top of this page](#navigation-structure) (`{:toc}` can be used only once on each page).
+The result is shown at [the top of this page](#navigation-structure) (`{:toc}` can be used only once on each page).Ik 
